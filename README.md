@@ -2,6 +2,8 @@
 
 This is a demo project for showcasing the capabilities of `socheatsok78/buildkit-nix`. It demonstrates how to use BuildKit with Nix Flakes to build container images.
 
+See [socheatsok78/buildkit-nix](https://github.com/socheatsok78/buildkit-nix) for implementation details.
+
 ## Example
 
 There are two examples provided in this repository:
