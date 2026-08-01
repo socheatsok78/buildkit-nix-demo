@@ -18,11 +18,9 @@ rec {
   hello-layered-image = pkgs.dockerTools.buildLayeredImage {
     name = "hello-layered-image";
     tag = "dev";
-    copyToRoot = pkgs.buildEnv {
-      name = "image-root";
-      pathsToLink = [ "/bin" ];
-      paths = [ pkgs.hello ];
-    };
+    contents = [
+      pkgs.hello
+    ];
     config = {
       Cmd = [ "${pkgs.hello}/bin/hello" ];
     };
