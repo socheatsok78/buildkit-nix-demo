@@ -51,17 +51,17 @@ Output:
 #2 transferring dockerfile: 813B done
 #2 DONE 0.0s
 
-#3 resolve image config for docker-image://ghcr.io/socheatsok78/buildkit-nix:experimental
+#3 resolve image config for docker-image://ghcr.io/socheatsok78/nixfile-frontend:experimental
 #3 ...
 
-#4 [auth] socheatsok78/buildkit-nix:pull token for ghcr.io
+#4 [auth] socheatsok78/nixfile-frontend:pull token for ghcr.io
 #4 DONE 0.0s
 
-#3 resolve image config for docker-image://ghcr.io/socheatsok78/buildkit-nix:experimental
+#3 resolve image config for docker-image://ghcr.io/socheatsok78/nixfile-frontend:experimental
 #3 DONE 1.4s
 
-#5 docker-image://ghcr.io/socheatsok78/buildkit-nix:experimental@sha256:833fe9582502d252c462efae03433a172a42409f465915163b9f1e78f4b6214e
-#5 resolve ghcr.io/socheatsok78/buildkit-nix:experimental@sha256:833fe9582502d252c462efae03433a172a42409f465915163b9f1e78f4b6214e done
+#5 docker-image://ghcr.io/socheatsok78/nixfile-frontend:experimental@sha256:833fe9582502d252c462efae03433a172a42409f465915163b9f1e78f4b6214e
+#5 resolve ghcr.io/socheatsok78/nixfile-frontend:experimental@sha256:833fe9582502d252c462efae03433a172a42409f465915163b9f1e78f4b6214e done
 #5 CACHED
 
 #6 resolve image config for docker-image://docker.io/nixos/nix:latest
