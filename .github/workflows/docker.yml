@@ -20,4 +20,5 @@ jobs:
       contents: read
       packages: write
     with:
+      targets: default-multi-platform
       permit-push: false
