@@ -21,4 +21,6 @@ jobs:
       packages: write
     with:
       targets: default-multi-platform
+      permit-login: false
       permit-push: false
+      custom-cache-mode: max
