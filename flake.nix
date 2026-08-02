@@ -1,6 +1,6 @@
 # syntax=socheatsok78/nixfile-frontend:experimental
 {
-  description = "Nix tools and packages for the s6-overlay";
+  description = "This is a demo project for showcasing the capabilities of socheatsok78/buildkit-nix";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
