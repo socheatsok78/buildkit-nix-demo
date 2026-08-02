@@ -23,4 +23,5 @@ jobs:
       targets: default-multi-platform
       permit-login: false
       permit-push: false
+      permit-cache: ${{ github.event_name != 'pull_request' }}
       custom-cache-mode: max
