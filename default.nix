@@ -2,6 +2,11 @@
   pkgs ? import <nixpkgs> { },
 }:
 rec {
+  # Set the default package to s6-overlay-container-layered
+  default = hello-layered-image;
+
+  hello = pkgs.hello;
+
   hello-image = pkgs.dockerTools.buildImage {
     name = "hello-image";
     tag = "dev";
@@ -56,7 +61,4 @@ rec {
       Cmd = [ "${pkgs.hello}/bin/hello" ];
     };
   };
-
-  # Set the default package to s6-overlay-container-layered
-  default = hello-layered-image;
 }
