@@ -16,14 +16,6 @@ target "flake-default" {
     tags = [ "socheatsok78/buildkit-nix-demo:hello-image" ]
 }
 
-
-target "flake-hello" {
-    context = "."
-    target = "hello"
-    dockerfile = "flake.nix"
-    tags = [ "socheatsok78/buildkit-nix-demo:hello-image" ]
-}
-
 target "flake-hello-image" {
     context = "."
     target = "hello-image"
