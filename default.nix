@@ -2,6 +2,8 @@
   pkgs ? import <nixpkgs> { },
 }:
 rec {
+  hello = pkgs.hello;
+
   hello-image = pkgs.dockerTools.buildImage {
     name = "hello-image";
     tag = "dev";
